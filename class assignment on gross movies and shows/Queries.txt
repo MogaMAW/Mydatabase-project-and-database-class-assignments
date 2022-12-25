@@ -3,7 +3,7 @@ Qn. Write a querry to return the list of movies and their genres.
 sqlite> SELECT movies.title,genres.genre FROM movies LEFT JOIN genres ON movies.id=genres.id; 
 
 ..............................................................................................
-#To open sqlite in Virtual Studio Code(VSC)
+# To open sqlite in Virtual Studio Code(VSC)
 1. Enter ./sqlite3
 2. sqlite> .open moga.db
 3. sqlite> .schema
