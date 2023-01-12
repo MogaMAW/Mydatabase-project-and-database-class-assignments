@@ -1,4 +1,3 @@
-
 Write 5 Queries using COUNTS, JOINS AND CONCATINATING and other queries.
 
 			A).CONCATINATING
