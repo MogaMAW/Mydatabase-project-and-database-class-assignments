@@ -86,7 +86,7 @@ sqlite>
 
 
 
-		c).JOINS
+		c).JOINS:
 1). 
 sqlite> SELECT doctor_names, names FROM patient,doctor,treatment WHERE patient.patient_id=treatment.patient_id AND treatment.doctor_id = doctor.doctor_id AND 
 patient.names LIKE "%WAMALA CRANMER%";
