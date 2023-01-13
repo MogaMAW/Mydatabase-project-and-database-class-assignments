@@ -18,6 +18,7 @@ db.execute("CREATE TABLE pharmacy(pharmacy_id INTEGER, medicine_name TEXT,price 
 with open("project data.csv","r") as file:
 
     reader = csv.DictReader(file)
+
     
     for row in reader:
         doctor_names = row["names"]
